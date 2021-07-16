@@ -1,0 +1,19 @@
+.mini-card-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+
+.mini-card-container h4 {
+    margin-bottom: 15px;
+}
+
+.mini-card-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+}
