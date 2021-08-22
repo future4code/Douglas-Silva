@@ -16,6 +16,7 @@ export default class App extends React.Component{
         return <div>Pádgina não encontrada</div>
     }
   }
+  
   irParaCriarPlaylist = () => {
     this.setState({telaAtual: "criarPlaylist"})
   }
