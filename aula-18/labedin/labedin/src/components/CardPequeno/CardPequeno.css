@@ -1,0 +1,28 @@
+.littlecard-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* align-items: center; */
+    border: 1px solid black;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    height: 80px;
+}
+
+.littlecard-container > img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.littlecard-container h4 {
+    padding: auto;
+}
+
+.littlecard-container > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
