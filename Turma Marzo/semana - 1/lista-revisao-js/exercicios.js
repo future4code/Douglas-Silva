@@ -5,6 +5,7 @@
 
 // EXERCÍCIO 01
 function retornaTamanhoArray(array) {
+    
     return array.length   
 }
 
